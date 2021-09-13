@@ -1,6 +1,6 @@
 <?php
 
-    $link = mysqli_connect("localhost", "root","", "shivam24");
+    $link = mysqli_connect("hostname", "username","password", "databasename");
         
         if (mysqli_connect_error()) {
             
